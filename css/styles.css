@@ -89,12 +89,24 @@ footer p {
 }
 
 #carouselExample {
-    width: 500px;
+    width: 280px;
 }
 
 .carousel-item img {
-    height: 600px;
+    height: 280px;
 }
+
+
+@media (min-width:516px) {
+    #carouselExample {
+        width: 500px;
+    }
+
+    .carousel-item img {
+        height: 600px;
+    }
+}
+
 
 .carousel-control-prev-icon, 
 .carousel-control-next-icon {
