@@ -7,51 +7,116 @@
 
     <link rel="shortcut icon" href="../img/brownie.jpeg" type="image/x-icon">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Ubicacion</title>
 </head>
 
 <body>
     <header>
-        <a href="../index.html">
-            <img src="../img/torta clasica.jpg" alt="Torta clasica" class="logo" title="Torta clasica">
-        </a>
-
-        <nav>
-            <ul class="menu-nav">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-
-                <li>
-                    <a href="productos.html">Productos</a>
-                </li>
-
-                <li>
-                    <a href="historia.html">Historia</a>
-                </li>
-
-                <li>
-                    <a href="ubicacion.html">Ubicacion</a>
-                </li>
-
-                <li>
-                <a href="contacto.html">Contactos</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"> 
+                    <img class="torta-logo" src="../img/torta gris.jpeg" alt="">
+                    <p class="mt-1">Reposteria Faccini</p>
+                </a> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                        <a class="nav-link active" aria-current="page" href="historia.html">Historia</a>
+                        <a class="nav-link active" aria-current="page" href="ubicacion.html">Ubicacion</a>
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
-</header>
+    </header>
 
 
-    <h2>Nos encontramos por Boulogne, la ubicacion de retiro se coordina por whatsapp</h2>
-<br> 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26305.105256216848!2d-58.587108863505826!3d-34.49938158300289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba64ba48f9cb%3A0xd61b4bdbdfb6d529!2sBoulogne%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1672083964670!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h2 class="mb-5 text-center">Nos encontramos por Boulogne, la ubicacion de retiro se coordina por whatsapp</h2>
 
-    <br><br><hr>
+    <div class="mapa">
+    <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26305.105256216848!2d-58.587108863505826!3d-34.49938158300289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba64ba48f9cb%3A0xd61b4bdbdfb6d529!2sBoulogne%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1672083964670!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
-    <footer>
-        <p>Todos los derechos reservados</p>
-    </footer>
+    <section> 
+        <div id="carouselExample" class="carousel slide mx-auto mt-5">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="../img/princesa.jpeg" class="d-block w-100" alt="..." title="Torta de princesa">
+                </div>
+            <div class="carousel-item">
+                <img src="../img/racing.jpeg" class="d-block w-100" alt="Torta de racing" title="Torta de racing">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/brownie.jpeg" class="d-block w-100" alt="..." title="Torta brownie">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/fulbo.jpeg" class="d-block w-100" alt="..." title="Torta de futbol">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/kakashi.jpeg" class="d-block w-100" alt="..." title="Torta Kakashi">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/allboys.jpeg" class="d-block w-100" alt="..." title="Torta de Allboys">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/animales.jpeg" class="d-block w-100" alt="..." title="Torta de animales">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/corona.jpeg" class="d-block w-100" alt="..." title="Torta corona">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/marvel.jpeg" class="d-block w-100" alt="..." title="Torta de Avengers">
+            </div>
+            <div class="carousel-item active">
+                <img src="../img/lilo stich.jpeg" class="d-block w-100" alt="..." title="Torta de lilo & stitch">
+            </div>
+        </div>
+        
+            <div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+        
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <footer class="mt-5">
+            <div class="container">
+                <div class="left-text">
+                    <p>No dudes en contactarnos!</p>
+                    <p>Copyright ©2022 reposteria faccini. All rights reserved.</p>
+                </div>
+        
+                <div class="right-links">
+                    <a href="https://www.facebook.com/profile.php?id=100042886764186" class="fa fa-facebook" target="_blank" alt="Facebook"></a>
+                    <a href="https://wa.me/+541122630604" class="fa fa-whatsapp" target="_blank"></a>
+                </div>
+        
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+crossorigin="anonymous"></script>
     
 </body>
 </html>
