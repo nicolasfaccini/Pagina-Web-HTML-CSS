@@ -1,0 +1,22 @@
+.pf {
+    text-align: center;
+}
+
+@media (min-width: $desktopxg) {
+    .pf {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+}
+
+.historia {
+    @include flex-columna;
+    gap: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 3rem;    
+}
+
+.titulo-historia {
+    margin-top: -1rem;
+}

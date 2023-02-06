@@ -1,0 +1,148 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+body {
+    background-color: $color-primario;
+    font-family: $fuente-principal;
+    margin-top: 7rem;
+}
+
+
+.navbar-nav a {
+    color: $color-letras;
+    transition: all 1s;
+    font-size: 25px;
+    
+    &:hover {
+        background-color: $color-primario;
+        padding: 10px;
+    }
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: $color-secundario;
+    width: 100%;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+
+
+footer {
+    background-color: $color-secundario;
+    color: $color-letras;
+    padding: 1rem;
+
+    p {
+        font-size: 20px;
+    }
+}
+
+#carouselExample {
+    width: 280px;
+}
+
+.carousel-item img {
+    height: 280px;
+}
+
+@media (min-width:$celular) {
+    #carouselExample {
+        width: 500px;
+    }
+
+    .carousel-item img {
+        height: 600px;
+    }
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: $color-secundario;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 1;
+}
+
+.container {
+    max-width: $desktopxg;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}  
+
+.right-links a {
+    padding: 2rem;
+    color: $color-letras;
+    margin-left: 1rem;
+    font-size: 20px;
+}  
+
+.fa {
+        width: 75px;   
+}
+
+
+.fa-facebook,
+.fa-whatsapp {
+    background: $color-primario;
+    color: $color-letras;
+}
+
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: auto;
+    margin-top: 1rem;
+}
+
+.torta-logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 0.5rem;
+}
+
+.navbar-brand {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+
+    p  {
+        font-size: 25px;
+    }
+}
+
+.divisor {
+    margin-top: 5rem;
+    background-color: $color-secundario;
+    font-size: 60px;
+    display: block;
+    color: $color-letras;
+}
+
+.img-historia {
+    width: 500px;
+    height: 550px;
+}
+
+.strongs {
+    text-decoration: none;
+}
