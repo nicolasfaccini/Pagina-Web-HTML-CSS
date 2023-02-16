@@ -56,21 +56,21 @@ footer {
 }
 
 #carouselExample {
-    width: 250px;
+    width: 270px;
 }
 
 .carousel-item img{
-    width: 250px;
+    width: 270px;
     height: 350px;
 }
 
 @media (min-width:$chica) {
     #carouselExample {
-        width: 360px;
+        width: 340px;
     }
 
     .carousel-item img {
-        height: 360px;
+        height: 340px;
     }
 }
 @media (min-width:$celular) {
@@ -145,7 +145,7 @@ footer {
 .divisor {
     margin-top: 5rem;
     background-color: $color-secundario;
-    font-size: 60px;
+    font-size: 50px;
     display: block;
     color: $color-letras;
 }
